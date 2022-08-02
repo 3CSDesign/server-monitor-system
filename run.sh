@@ -12,3 +12,8 @@ chmod 777 prometheus/get.sh
 cd prometheus
 ./get.sh
 cd ../
+
+chmod 777 promtail/get.sh
+cd promtail
+./get.sh
+cd ../
